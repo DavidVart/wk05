@@ -51,6 +51,8 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap:10px;
+    justify-items: baseline;
+
 }
 
 .grid {
