@@ -1,0 +1,28 @@
+body {
+    background-color: #c0c0c0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: serif;
+}
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 45px solid gray;
+    outline: 10px solid blue;
+    outline-offset: -10px;
+    max-width: 300px;
+    height: auto;
+}
+
+p {
+    margin: 20px 0;
+}
