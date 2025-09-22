@@ -46,4 +46,36 @@
   
 
   /* **** Student code starts here */
+dl{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: start;
+  gap: 5px 10px;
+}
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.grid div:nth-child(even) img {
+  filter: grayscale(100%);
+  border: 25px solid black;
+  box-sizing: border-box;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.gallery img:hover {
+    filter: grayscale(0%);
+    border: 3px red dashed;
+    border-radius: 50px;
+  }
