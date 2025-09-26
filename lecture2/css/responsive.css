@@ -19,7 +19,7 @@
 /* STUDENT CODE STARTS HERE */
 
 /* --- Tablet View (≥768px) --- */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -43,7 +43,7 @@
 }
 
 /* --- Desktop View (≥1200px) --- */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
